@@ -3,7 +3,7 @@ import express from "express";
 import adminUserRoute from "./routes/AdminRoutes.js";
 import connectDB from "./dbconnection/Connection.js";
 import cors from "cors";
-import forgotUserRoute from "./routes/forgotRoutes.js";
+import forgotUserRoute from "./routes/ForgotRoutes.js";
 import LeadsRoutes from "./routes/LeadRoutes.js";
 
 const app = express();
