@@ -1,5 +1,4 @@
 import {Lead} from '../schema/LeadDetail.js'
-// import { Product } from '../schema/ProductSchema.js';
 import Products from '../constant/productData.js';
 // Create Lead
 export const createLead = async (req, res) => {

@@ -10,9 +10,7 @@ const app = express();
 dotenv.config();
 
 app.use (express.json());
-app.use(cors({
-  origin: 'https://lead-project-xi.vercel.app',
-}));
+app.use(cors());
 
 app.use(adminUserRoute);
 app.use(forgotUserRoute);

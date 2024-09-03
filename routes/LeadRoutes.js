@@ -5,7 +5,7 @@ import Product from "../constant/productData.js";
 const LeadsRoutes = express.Router();
 
 LeadsRoutes.post('/create',createLead);
-LeadsRoutes.get('/getting',getProducts); 
+// LeadsRoutes.get('/getting',getProducts); 
 LeadsRoutes.put('/update/:id',updateLead);
 LeadsRoutes.delete('/delete/:id',deleteLead);
 LeadsRoutes.get('/search',searchLeads);
