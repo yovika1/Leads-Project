@@ -11,9 +11,10 @@ dotenv.config();
 
 app.use (express.json());
 app.use(cors({
-  origin: 'lead-project-xi.vercel.app',
+  origin: [/\.vercel\.app$/],
   credentials: true, 
 }));
+
 
 app.use(adminUserRoute);
 app.use(forgotUserRoute);
