@@ -1,12 +1,8 @@
 import dotenv from "dotenv";
 import express from "express";
-console.log("Importing AdminRoutes...");
 import adminUserRoute from "./routes/AdminRoutes.js";
-console.log("AdminRoutes imported successfully.");
-// Repeat for other imports
 import connectDB from "./dbconnection/Connection.js";
 import cors from "cors";
-console.log("Starting server...");
 import forgotUserRoute from "./routes/forgotRoutes.js";
 import LeadsRoutes from "./routes/LeadRoutes.js";
 

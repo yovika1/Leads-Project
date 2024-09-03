@@ -1,5 +1,5 @@
 import express from "express";
-import { ForgotUsername } from "../controllers/forgotUser.js";
+import { ForgotUsername } from "../controllers/ForgotUser.js";
 const forgotUserRoute = express.Router();
 
 forgotUserRoute.post("/forgotuser",ForgotUsername);
